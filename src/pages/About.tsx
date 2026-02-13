@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SectionWrapper from "@/components/SectionWrapper";
-import HeroEducation from "@/assets/hero-education.jpg";
-import communityImg from "@/assets/community.jpg";
+import student7 from "@/assets/student7.jpg";
+import student3 from "@/assets/student3.jpg";
 import { motion } from "framer-motion";
 import mission from "@/assets/mission.png"
 import vision from "@/assets/vision.png"
@@ -23,7 +23,7 @@ const About = () => {
         <section className="relative pt-24 pb-12 bg-primary min-h-[70vh] flex items-center">
   <div className="absolute inset-0">
     <img
-      src={HeroEducation}
+      src={student7}
       alt="Students celebrating at a school event"
       className="w-full h-full object-cover"
     />
@@ -65,7 +65,7 @@ const About = () => {
 
       <SectionWrapper className="bg-card">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <img src={communityImg} alt="Community engagement" className="rounded-lg shadow-xl w-full order-2 md:order-1" />
+          <img src={student3} alt="Community engagement" className="rounded-lg shadow-xl w-full order-2 md:order-1" />
           <div className="order-1 md:order-2">
             <h2 className="text-3xl font-serif font-bold mb-6">Our Approach</h2>
             <ul className="space-y-4">

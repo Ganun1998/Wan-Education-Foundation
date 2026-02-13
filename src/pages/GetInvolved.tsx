@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SectionWrapper from "@/components/SectionWrapper";
 import { motion } from "framer-motion";
-import HeroEducation from "@/assets/hero-education.jpg";
+import student7 from "@/assets/student7.jpg";
 
 const ways = [
   {
@@ -70,33 +70,36 @@ const GetInvolved = () => {
       <Navbar />
 
       <section className="relative pt-24 pb-12 bg-primary min-h-[70vh] flex items-center">
-  <div className="absolute inset-0">
-    <img
-      src={HeroEducation}
-      alt="Students celebrating at a school event"
-      className="w-full h-full object-cover"
-    />
-    <div className="absolute inset-0 bg-foreground/60" />
-  </div>
+        <div className="absolute inset-0">
+          <img
+            src={student7}
+            alt="Students celebrating at a school event"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-foreground/60" />
+        </div>
 
-  <div className="container mx-auto px-4 text-center max-w-3xl relative z-10">
-    <p className="text-secondary font-medium text-sm tracking-widest uppercase mb-3">
-      Take Action
-    </p>
+        <div className="container mx-auto px-4 text-center max-w-3xl relative z-10">
+          <p className="text-secondary font-medium text-sm tracking-widest uppercase mb-3">
+            Take Action
+          </p>
 
-    <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary-foreground mb-4">
-      Get Involved
-    </h1>
+          <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary-foreground mb-4">
+            Get Involved
+          </h1>
 
-    <p className="text-primary-foreground/80 text-lg">
-      There are many ways to support education in South Sudan and Ethiopia. Every action — big or small — makes a difference.
-    </p>
-  </div>
-</section>
-
+          <p className="text-primary-foreground/80 text-lg">
+            There are many ways to support education in South Sudan and
+            Ethiopia. Every action — big or small — makes a difference.
+          </p>
+        </div>
+      </section>
 
       {ways.map((way, i) => (
-        <SectionWrapper key={way.title} className={i % 2 === 0 ? "" : "bg-card"}>
+        <SectionWrapper
+          key={way.title}
+          className={i % 2 === 0 ? "" : "bg-card"}
+        >
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -111,7 +114,9 @@ const GetInvolved = () => {
                   </div>
                   <h2 className="text-2xl font-serif font-bold">{way.title}</h2>
                 </div>
-                <p className="text-muted-foreground text-lg leading-relaxed mb-6">{way.desc}</p>
+                <p className="text-muted-foreground text-lg leading-relaxed mb-6">
+                  {way.desc}
+                </p>
                 <Link to="/contact">
                   <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
                     {way.cta}
@@ -119,10 +124,15 @@ const GetInvolved = () => {
                 </Link>
               </div>
               <div className="md:col-span-2 bg-card rounded-lg p-5 border-2 border-primary">
-                <h3 className="font-semibold text-lg uppercase tracking-wide text-primary mb-3">How It Works</h3>
+                <h3 className="font-semibold text-lg uppercase tracking-wide text-primary mb-3">
+                  How It Works
+                </h3>
                 <ul className="space-y-2">
                   {way.details.map((detail, j) => (
-                    <li key={j} className="flex items-start gap-2 text-lg text-muted-foreground">
+                    <li
+                      key={j}
+                      className="flex items-start gap-2 text-lg text-muted-foreground"
+                    >
                       <div className="w-1.5 h-1.5 rounded-full bg-secondary mt-2 shrink-0" />
                       {detail}
                     </li>

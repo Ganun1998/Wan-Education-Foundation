@@ -6,9 +6,9 @@ import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SectionWrapper from "@/components/SectionWrapper";
-import HeroEducation from "@/assets/hero-education.jpg";
-import christmasFestival from "@/assets/christmas-festival.jpg";
-import awardsCeremony from "@/assets/awards-ceremony.jpg";
+import student7 from "@/assets/student7.jpg";
+import student1 from "@/assets/student1.jpg";
+import student4 from "@/assets/student4.jpg";
 import girl from "@/assets/girl.jpg";
 
 const timelineEvents = [
@@ -32,7 +32,7 @@ const Events = () => {
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src={HeroEducation} alt="Students celebrating at a school event" className="w-full h-full object-cover" />
+          <img src={student7} alt="Students celebrating at a school event" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-foreground/60" />
         </div>
         <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl">
@@ -117,7 +117,7 @@ const Events = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <img src={christmasFestival} alt="Students celebrating at Christmas festival" className="rounded-lg shadow-xl w-full" />
+            <img src={student1} alt="Students celebrating at Christmas festival" className="rounded-lg shadow-xl w-full" />
           </motion.div>
         </div>
       </SectionWrapper>
@@ -132,7 +132,7 @@ const Events = () => {
             transition={{ duration: 0.6 }}
             className="order-2 md:order-1"
           >
-            <img src={awardsCeremony} alt="Students receiving certificates at awards ceremony" className="rounded-lg shadow-xl w-full" />
+            <img src={student4} alt="Students receiving certificates at awards ceremony" className="rounded-lg shadow-xl w-full" />
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: 30 }}

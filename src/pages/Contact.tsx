@@ -9,7 +9,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SectionWrapper from "@/components/SectionWrapper";
 import { useToast } from "@/hooks/use-toast";
-import HeroEducation from "@/assets/hero-education.jpg";
+import student7 from "@/assets/student7.jpg";
 
 const Contact = () => {
 
@@ -41,7 +41,7 @@ const Contact = () => {
       <section className="relative pt-24 pb-12 bg-primary min-h-[70vh] flex items-center">
         <div className="absolute inset-0">
           <img
-            src={HeroEducation}
+            src={student7}
             alt="Students celebrating at a school event"
             className="w-full h-full object-cover"
           />

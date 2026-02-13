@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import SectionWrapper from "@/components/SectionWrapper";
 import ProgramCard from "@/components/ProgramCard";
 import EventsHighlight from "@/components/EventsHighlight";
-import HeroEducation from "@/assets/hero-education.jpg";
+import student7 from "@/assets/student7.jpg";
 import mission from "@/assets/mission.png";
 import vision from "@/assets/vision.png";
 import twin from "@/assets/twin.jpg";
@@ -26,7 +26,7 @@ const Index = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src={HeroEducation}
+            src={student7}
             alt="South Sudanese children walking to school"
             className="w-full h-full object-cover mb-16"
           />

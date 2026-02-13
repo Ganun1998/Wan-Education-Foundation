@@ -2,10 +2,9 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Calendar, Star, Award, Heart, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import christmasFestival from "@/assets/christmas-festival.jpg";
-import awardsCeremony from "@/assets/awards-ceremony.jpg";
 import child3 from "@/assets/child3.png";
-
+import student1 from "@/assets/student1.jpg";
+import student4 from "@/assets/student4.jpg";
 
 const events = [
   {
@@ -13,14 +12,14 @@ const events = [
     title: "Christmas Festival & Celebration",
     description: "An annual community celebration recognizing student resilience and strengthening belonging.",
     timing: "December",
-    image: christmasFestival,
+    image: student1,
   },
   {
     icon: <Award size={20} />,
     title: "End of Year Awards Ceremony",
     description: "Recognizing academic effort, leadership, and commitment to education across schools.",
     timing: "Jan (SS) / Jul (ETH)",
-    image: awardsCeremony,
+    image: student4,
   },
   {
     icon: <Heart size={20} />,
