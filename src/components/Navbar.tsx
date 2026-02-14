@@ -100,7 +100,7 @@ const Navbar = () => {
       </div>
 
       {/* ================= MAIN NAV ================= */}
-      <div className="container mx-auto px-4 flex items-center justify-between h-24">
+      <div className="container mx-auto px-0 flex items-center justify-between h-24">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3">
           <img

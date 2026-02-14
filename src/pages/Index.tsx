@@ -28,7 +28,7 @@ const Index = () => {
           <img
             src={student7}
             alt="South Sudanese children walking to school"
-            className="w-full h-full object-cover mb-16"
+            className="w-full h-full object-cover mb-16 attachment-fixed"
           />
           <div className="absolute inset-0 bg-foreground/70"/>
         </div>
@@ -333,27 +333,27 @@ const Index = () => {
       {/* Trust indicators */}
       <SectionWrapper className="bg-card">
         <div className="text-center">
-          <p className="text-muted-foreground text-lg mb-6">
+          <p className="text-primary text-lg mb-6">
             Trusted by communities, donors, and partners
           </p>
           <div className="flex flex-wrap items-center justify-center gap-8 text-muted-foreground/60">
             <div className="flex items-center gap-2">
-              <Shield size={20} />
-              <span className="text-medium font-medium">Registered Nonprofit</span>
+              <Shield size={20} className="text-primary" />
+              <span className="text-medium font-medium text-primary">Registered Nonprofit</span>
             </div>
             <div className="flex items-center gap-2">
-              <Heart size={20} />
-              <span className="text-medium font-medium">Community-Led</span>
+              <Heart size={20} className="text-primary" />
+              <span className="text-medium font-medium text-primary">Community-Led</span>
             </div>
             <div className="flex items-center gap-2">
-              <Award size={20} />
-              <span className="text-medium font-medium">
+              <Award size={20} className="text-primary" />
+              <span className="text-medium font-medium text-primary">
                 Transparent Governance
               </span>
             </div>
             <div className="flex items-center gap-2">
-              <Users size={20} />
-              <span className="text-medium font-medium">Diaspora-Supported</span>
+              <Users size={20} className="text-primary" />
+              <span className="text-medium font-medium text-primary">Diaspora-Supported</span>
             </div>
           </div>
         </div>
