@@ -55,19 +55,19 @@ const Navbar = () => {
           <div className="flex items-center gap-4 text-muted-foreground">
             <a
               href="#"
-              className=" bg-white text-primary p-2 hover:text-primary"
+              className="text-white p-2 hover:text-primary"
             >
               <Facebook size={18} />
             </a>
             <a
               href="#"
-              className=" bg-white text-primary p-2 hover:text-primary"
+              className="text-white p-2 hover:text-primary"
             >
               <Twitter size={18} />
             </a>
             <a
               href="#"
-              className=" bg-white text-primary p-2 hover:text-primary"
+              className=" text-white p-2 hover:text-primary"
             >
               <Instagram size={18} />
             </a>
