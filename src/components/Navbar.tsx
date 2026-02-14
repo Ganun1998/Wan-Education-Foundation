@@ -42,7 +42,7 @@ const Navbar = () => {
       <div className="border-b bg-primary">
         <div className="container mx-auto px-4 h-14 flex items-center justify-between text-xs">
           {/* Left – Contact */}
-          <div className="flex items-center gap-4 text-white">
+          <div className="flex items-center gap-4 text-white/80">
             <span className="items-center gap-1 text-lg font-bold hidden md:flex">
               <Mail size={18} /> info@waneducation.org
             </span>
@@ -74,10 +74,10 @@ const Navbar = () => {
           </div>
 
           {/* Right – Language */}
-          <div className="relative bg-primary-foreground">
+          <div className="relative bg-primary rounded-md">
             <button
               onClick={() => setLanguageOpen(!languageOpen)}
-              className="flex items-center text-lg gap-1 p-3 text-muted-foreground hover:text-muted-foreground/80"
+              className="flex items-center text-lg gap-1 p-3 text-white hover:text-white"
             >
               EN <ChevronDown size={25} />
             </button>
