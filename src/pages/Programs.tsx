@@ -57,7 +57,7 @@ const Programs = () => {
 }, []);
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background border-8 border-primary">
       <Navbar />
       <section className="relative pt-24 pb-12 bg-primary min-h-[70vh] flex items-center">
         <div className="absolute inset-0">

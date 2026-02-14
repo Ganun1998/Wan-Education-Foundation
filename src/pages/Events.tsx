@@ -26,7 +26,7 @@ const Events = () => {
 }, []);
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background border-8 border-primary">
       <Navbar />
 
       {/* Hero */}
