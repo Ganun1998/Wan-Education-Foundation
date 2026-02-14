@@ -33,19 +33,11 @@ const Index = () => {
           <div className="absolute inset-0 bg-foreground/70"/>
         </div>
         <div className="relative z-10 container mx-auto px-4 max-w-4xl">
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="text-secondary font-medium text-sm tracking-widest uppercase mb-4"
-          >
-            Wan Education Foundation
-          </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-background leading-tight mb-6"
+            className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-background leading-tight mb-6"
           >
             Every Child Deserves a{" "}
             <span className="text-secondary">Future Built on Education</span>

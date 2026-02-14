@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SectionWrapper from "@/components/SectionWrapper";
 import { motion } from "framer-motion";
+import student7 from "@/assets/student7.jpg";
 
 const values = [
   { icon: <Heart size={24} />, title: "Student-First", desc: "Every decision starts with the student's needs and potential." },
@@ -24,11 +25,22 @@ const VisionMission = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
 
-      <section className="pt-24 pb-12 bg-primary min-h-[70vh] flex items-center">
-        <div className="container mx-auto px-4 text-center max-w-3xl">
-          <p className="text-secondary font-medium text-sm tracking-widest uppercase mb-3">Our Foundation</p>
+       <section className="relative pt-24 pb-12 bg-primary min-h-[70vh] flex items-center">
+        <div className="absolute inset-0">
+          <img
+            src={student7}
+            alt="Students celebrating at a school event"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-foreground/60" />
+        </div>
+
+        <div className="container mx-auto px-4 text-center max-w-3xl relative z-10">
+          <p className="text-secondary font-medium text-sm tracking-widest uppercase mb-3">
+            Core Values
+          </p>
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-primary-foreground mb-4">
-            Vision, Mission & Values
+            Core Values and principles
           </h1>
         </div>
       </section>

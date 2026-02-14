@@ -53,7 +53,7 @@ const About = () => {
               South Sudan faces one of the world's most severe education crises. Decades of conflict, displacement, and poverty have left millions of children out of school. For those who do enroll, dropout rates remain alarmingly high due to economic hardship, insecurity, and the absence of trained teachers and learning materials.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Wan Education Foundation was created by South Sudanese leaders and diaspora members who believe that education is the most powerful tool for lasting change. We bridge the gap between communities, schools, and resources — ensuring every child has the opportunity to learn, grow, and thrive.
+              Wan Education Foundation was created by volunteers South Sudanese citizens who believe that education is the most powerful tool for lasting change. We bridge the gap between communities, schools, and resources — ensuring every child has the opportunity to learn, grow, and thrive.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               Our approach is community-led and diaspora-supported, combining local knowledge with global partnerships to deliver practical, accountable programs that produce real results.
